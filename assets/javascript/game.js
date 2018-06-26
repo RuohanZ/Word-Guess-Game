@@ -63,6 +63,7 @@ document.getElementById("start").onclick = function (event) {
             loss++;
             document.getElementById("result").innerText = "Fail";
             document.getElementById("fail").innerText = loss;
+            document.querySelector("#question").innerHTML = randomWord;
             return
         }
         else if (document.getElementById("result").innerText == "Pass"){
