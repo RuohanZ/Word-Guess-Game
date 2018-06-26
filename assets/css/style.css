@@ -1,0 +1,107 @@
+body{
+    background-image: url("../images/linedpaper.png");
+}
+
+.indexContent{
+    border: 2px dashed darkred;
+    width: 80%;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+}
+.gameContent{
+    border: 2px dashed darkred;
+}
+.header{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: darkred;
+    font-size: 100px;
+}
+
+.guidePara{
+    font-family: 'Poor Story', cursive;
+    font-size:20px;
+    margin-top:20px;
+}
+.special{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: darkred;
+}
+
+
+a{  
+    font-family: 'Poor Story', cursive;
+    font-size: 25px;
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color: darkred;
+}
+
+.gamePage{
+    margin-top: 100px;
+} 
+#q{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+
+#question{
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+    font-size: 30px;
+
+}
+button{
+    padding:4px;
+    border: 2px dashed darkred;
+    font-family: 'Poor Story', cursive;
+}
+#starter{
+    margin: 40px auto;
+    text-align: center;
+}
+
+.right{
+    color: black;
+    letter-spacing: 5px;
+}
+.wrong{
+    color: red;
+    letter-spacing: 5px;
+
+}
+h2, #yourGuesses{
+    margin-bottom: 40px;
+    font-family: 'Poor Story', cursive;
+}
+h2{
+    font-size: 30px;
+}
+#yourGuesses{
+    font-size: 25px;
+}
+
+.winAndLoss{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:25px;
+
+}
+.passOrFail{
+    text-align: center;
+    padding-top: 60px;
+}
+#lives{
+    
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:60px;
+}
+#result{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:80px;
+    color:darkred;
+}
